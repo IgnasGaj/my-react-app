@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(81, 140, 202);
+  padding: 1rem 2rem;
+}
+
+.navbar li {
+  all: unset;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4rem;
+}
+
+.logo {
+  width: 15%;
+  height: 100px;
+}

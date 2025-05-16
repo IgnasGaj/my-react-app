@@ -1,0 +1,9 @@
+.wrapper {
+  padding: 1.5rem 2rem;
+  background-color: rgb(80, 74, 74);
+}
+
+.characters_title {
+  font-size: 2rem;
+  text-align: center;
+}

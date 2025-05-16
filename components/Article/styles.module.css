@@ -1,0 +1,55 @@
+.wrapper {
+  padding: 1.5rem 2rem;
+  background-color: rgb(80, 74, 74);
+}
+
+.spider_man_img {
+  height: 10rem;
+  width: 10rem;
+}
+
+.character_wrapper {
+  display: grid;
+  grid-template-columns: 12rem 50rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border-bottom: 1px solid black;
+  padding-bottom: 2rem;
+}
+
+.character_wrapper h3 {
+  font-size: 2rem;
+}
+
+.character_wrapper p {
+  font-size: 1.2rem;
+}
+
+.tier_btn {
+  all: unset;
+  width: 8rem;
+  height: 2rem;
+  background-color: rgb(247, 143, 63);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  cursor: pointer;
+}
+
+.tier_btn:active {
+  transform: translateY(4px);
+}
+
+.tier_list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
+}
+
+.tier_list h2 {
+  color: rgb(226, 54, 54);
+}

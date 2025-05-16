@@ -1,0 +1,20 @@
+.wrapper {
+  background-color: rgb(226, 54, 54);
+  padding: 1rem 4rem;
+}
+
+.wrapper footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contacts li {
+  all: unset;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
