@@ -12,16 +12,24 @@ const Footer = () => {
         </ul>
         <ul className={styles.contacts}>
           <li>
-            <a href="#">Instagram</a>
+            <a href="#">
+              <img className={styles.socials_img} src="instagram.svg" />
+            </a>
           </li>
           <li>
-            <a href="#">Facebook</a>
+            <a href="#">
+              <img className={styles.socials_img} src="facebook.svg" />
+            </a>
           </li>
           <li>
-            <a href="#">Youtube</a>
+            <a href="#">
+              <img className={styles.socials_img} src="youtube.svg" />
+            </a>
           </li>
           <li>
-            <a href="#">Threads</a>
+            <a href="#">
+              <img className={styles.socials_img} src="share.svg" />
+            </a>
           </li>
         </ul>
       </footer>

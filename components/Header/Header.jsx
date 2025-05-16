@@ -23,13 +23,19 @@ const Header = () => {
       </ul>
       <ul className={styles.navbar}>
         <li>
-          <a href="#">Instagram</a>
+          <a href="#">
+            <img className={styles.socials_img} src="instagram.svg" />
+          </a>
         </li>
         <li>
-          <a href="#">Facebook</a>
+          <a href="#">
+            <img className={styles.socials_img} src="facebook.svg" />
+          </a>
         </li>
         <li>
-          <a href="#">Share</a>
+          <a href="#">
+            <img className={styles.socials_img} src="share.svg" />
+          </a>
         </li>
       </ul>
     </header>
