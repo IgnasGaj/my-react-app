@@ -1,13 +1,13 @@
 import { useState } from "react";
 import styles from "./styles.module.css";
 
-const Article = ({ imgSrc, title, description, tier }) => {
+const Article = ({ imgUrl, title, description, tier }) => {
   const [isShow, setShow] = useState(false);
   const toggleTier = () => setShow(!isShow);
   return (
     <div className={styles.wrapper}>
       <div className={styles.character_wrapper}>
-        <img className={styles.spider_man_img} src={imgSrc} />
+        <img className={styles.spider_man_img} src={imgUrl} />
         <div>
           <h3>{title}</h3>
           <p>{description}</p>
